@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .App {
@@ -22,7 +22,7 @@ input {
   background: whitesmoke;
   color: rgba(0, 0, 0, 0.6);
   padding: 15px 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: bold;
 }
@@ -41,7 +41,7 @@ button {
   background: whitesmoke;
   padding: 10px 30px;
   color: cadetblue;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
   border: none;
   cursor: pointer;
@@ -65,6 +65,14 @@ button {
   filter: grayscale(0);
 }
 
+.playing > img {
+  filter: grayscale(0) !important;
+}
+
+.playing > svg {
+  display: block !important;
+}
+
 .img {
   position: relative;
 }
@@ -81,7 +89,7 @@ button {
 
 .img > svg {
   position: absolute;
-  left: 40%;
+  left: 42%;
   top: 40%;
   z-index: 1;
   cursor: pointer;
